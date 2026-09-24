@@ -11,6 +11,7 @@ The goal is to understand how networks work before moving into security analysis
 ## Labs
 
 - [Day 1 — Networking Fundamentals and Packet Observation](labs/01-networking-fundamentals/notes.md)
+- [Day 2 — IPv4, Subnetting, ARP, Routing and DNS](labs/02-ipv4-subnetting-arp-routing-dns/notes.md)
 
 ## Learning path
 
@@ -29,6 +30,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 ## Lab'ler
 
 - [Gün 1 — Ağ Temelleri ve Paket Gözlemleme](labs/01-networking-fundamentals/notes.tr.md)
+- [Gün 2 — IPv4, Subnetting, ARP, Routing ve DNS](labs/02-ipv4-subnetting-arp-routing-dns/notes.tr.md)
 
 ## Öğrenme yolu
 
