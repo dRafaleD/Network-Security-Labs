@@ -14,6 +14,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 2 — IPv4, Subnetting, ARP, Routing and DNS](labs/02-ipv4-subnetting-arp-routing-dns/notes.md)
 - [Day 3 — TCP, UDP, Ports and Connection Analysis](labs/03-tcp-udp-ports-and-connections/notes.md)
 - [Day 4 — ICMP, Traceroute, TTL and Network Troubleshooting](labs/04-icmp-traceroute-and-troubleshooting/notes.md)
+- [Day 5 — TCP Deep Dive: Flags, States, Sequence Numbers and Retransmissions](labs/05-tcp-flags-states-sequence-analysis/notes.md)
 
 ## Learning path
 
@@ -35,6 +36,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 2 — IPv4, Subnetting, ARP, Routing ve DNS](labs/02-ipv4-subnetting-arp-routing-dns/notes.tr.md)
 - [Gün 3 — TCP, UDP, Portlar ve Bağlantı Analizi](labs/03-tcp-udp-ports-and-connections/notes.tr.md)
 - [Gün 4 — ICMP, Traceroute, TTL ve Ağ Sorun Giderme](labs/04-icmp-traceroute-and-troubleshooting/notes.tr.md)
+- [Gün 5 — TCP Derinlemesine: Flag'ler, State'ler, Sequence Number ve Retransmission](labs/05-tcp-flags-states-sequence-analysis/notes.tr.md)
 
 ## Öğrenme yolu
 
