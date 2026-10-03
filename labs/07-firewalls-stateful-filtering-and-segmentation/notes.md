@@ -1,0 +1,496 @@
+# Day 7 — Firewalls, Stateful Filtering and Network Segmentation
+
+[🇬🇧 English](notes.md) | [🇹🇷 Türkçe](notes.tr.md)
+
+## Goal
+
+Understand what a firewall actually decides, how stateful filtering differs from simply thinking in terms of open/closed ports, and why network segmentation limits unnecessary communication.
+
+This lab stays local and defensive. You will build a small TCP service on loopback, observe its connection state, inspect the host firewall, and reason about allow/deny policy without scanning or touching third-party systems.
+
+## 1. Where a firewall fits
+
+A simplified path:
+
+```text
+application
+    ↓
+TCP / UDP
+    ↓
+IP
+    ↓
+firewall policy
+    ↓
+network interface / route
+```
+
+A firewall can evaluate traffic using properties such as source/destination address, protocol, ports, interface, direction and connection state.
+
+A firewall does **not** automatically tell you whether an application is secure. It controls traffic according to policy.
+
+## 2. Packet filtering mental model
+
+Think of a rule as:
+
+```text
+match conditions
+      ↓
+decision
+      ↓
+allow / drop / reject / log
+```
+
+Example policy in plain language:
+
+> Allow established traffic, allow the required local service, and deny traffic that has no explicit reason to be accepted.
+
+The exact implementation depends on the platform.
+
+## 3. Stateless vs stateful filtering
+
+A stateless filter evaluates packets mainly from the fields available in each packet/rule.
+
+A stateful firewall also tracks connection state.
+
+Conceptually:
+
+```text
+client ---- SYN ----> server
+       <--- SYN/ACK --
+       ---- ACK ---->
+            ↓
+      ESTABLISHED state
+```
+
+Later packets can be recognized as belonging to an existing flow.
+
+This connects directly to Day 5, where TCP states and flags were examined at packet level.
+
+## 4. Connection tracking
+
+Linux commonly uses connection tracking underneath modern firewall workflows.
+
+Useful conceptual states include:
+
+- NEW
+- ESTABLISHED
+- RELATED
+- INVALID
+
+These are firewall/connection-tracking concepts and should not be confused one-to-one with every TCP state shown by `ss`.
+
+For example, `ESTABLISHED` in a firewall rule expresses connection-tracking state; TCP itself has its own state machine.
+
+## 5. Allowlist thinking
+
+A defensive policy often begins by asking:
+
+> Which communication is actually required?
+
+Then:
+
+```text
+required traffic -> explicitly allow
+unnecessary traffic -> do not expose
+unexpected traffic -> deny/log according to policy
+```
+
+This is easier to reason about than opening many services “just in case.”
+
+## 6. DROP vs REJECT
+
+Two common deny behaviors:
+
+### DROP
+
+The firewall silently discards the packet.
+
+The sender may wait for a timeout.
+
+### REJECT
+
+The firewall refuses the traffic and may return an error such as an ICMP response or TCP reset, depending on protocol and implementation.
+
+Neither is universally “more secure.” Operational requirements, troubleshooting and policy matter.
+
+## 7. Host firewall vs network firewall
+
+A **host firewall** runs on or directly protects one endpoint.
+
+A **network firewall** controls traffic between networks or zones.
+
+They can complement each other:
+
+```text
+Internet
+   ↓
+network firewall
+   ↓
+internal network
+   ↓
+host firewall
+   ↓
+application
+```
+
+Defense in depth means one layer does not eliminate the need for the others.
+
+## 8. Local training service
+
+Start a harmless service bound only to loopback:
+
+```bash
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+Check the listener:
+
+```bash
+ss -ltnp | grep 8000
+```
+
+Expected idea:
+
+```text
+127.0.0.1:8000
+```
+
+Binding to `127.0.0.1` means the service is intended to be reachable only from the local host.
+
+Test it:
+
+```bash
+curl -I http://127.0.0.1:8000/
+```
+
+## 9. Observe traffic
+
+Capture only the local lab flow:
+
+```bash
+sudo tcpdump -n -i lo 'tcp port 8000'
+```
+
+Generate another request:
+
+```bash
+curl http://127.0.0.1:8000/ > /dev/null
+```
+
+Connect this with previous days:
+
+- Day 3: ports and flows
+- Day 5: TCP handshake/state
+- Day 6: name resolution vs later connections
+- Day 7: policy deciding which flows should be permitted
+
+## 10. Inspect firewall configuration safely
+
+If your system uses nftables:
+
+```bash
+sudo nft list ruleset
+```
+
+If UFW is installed:
+
+```bash
+sudo ufw status verbose
+```
+
+For this lab, **inspect first**. Do not copy firewall modification commands blindly onto a remote machine or a system you depend on for connectivity.
+
+Before changing a firewall, always understand:
+
+- how you are connected,
+- which service must remain reachable,
+- how to recover if you lock yourself out,
+- whether another firewall manager owns the rules.
+
+## 11. nftables concepts
+
+Modern Linux commonly uses nftables.
+
+Important concepts:
+
+```text
+table
+  ↓
+chain
+  ↓
+rule
+  ↓
+verdict
+```
+
+A chain can be attached to a hook such as input, output or forward.
+
+### INPUT-like traffic
+Traffic destined for the local host.
+
+### OUTPUT-like traffic
+Traffic generated by the local host.
+
+### FORWARD-like traffic
+Traffic passing through the host to somewhere else.
+
+A normal workstation is often most concerned with local input/output, while routers/firewalls also care heavily about forwarding.
+
+## 12. Read a rule before writing one
+
+When inspecting a rule, translate it into plain language.
+
+For example, a conceptual rule:
+
+```text
+protocol = tcp
+destination port = 8000
+input interface = loopback
+action = accept
+```
+
+becomes:
+
+> Accept TCP traffic to port 8000 when it arrives through the loopback interface.
+
+This translation habit prevents command memorization without understanding.
+
+## 13. Rule order matters
+
+Many firewall rule sets are processed according to chain/order semantics.
+
+Conceptually:
+
+```text
+rule 1: allow established
+rule 2: allow required service
+rule 3: deny remaining input
+```
+
+A broad deny placed before a specific allow can change the outcome.
+
+Always read the policy in context rather than interpreting one line in isolation.
+
+## 14. Segmentation
+
+Segmentation separates systems into different networks or security zones.
+
+Example:
+
+```text
+User network
+     |
+  firewall
+     |
+Server network
+     |
+  firewall
+     |
+Management network
+```
+
+The goal is not merely “more subnets.” The goal is controlling which systems can communicate and for what purpose.
+
+## 15. Why segmentation matters
+
+Without useful segmentation:
+
+```text
+one compromised endpoint
+        ↓
+many unnecessary reachable systems
+```
+
+With carefully designed segmentation:
+
+```text
+one endpoint
+    ↓
+only explicitly required paths
+    ↓
+smaller reachable surface
+```
+
+Segmentation does not guarantee safety, but it can reduce unnecessary exposure and limit movement between zones.
+
+## 16. VLAN is not automatically a security policy
+
+VLANs can separate Layer-2 broadcast domains, but security depends on how traffic between those networks is routed and filtered.
+
+A useful distinction:
+
+```text
+VLAN / subnet -> separation
+firewall / ACL -> communication policy
+```
+
+Real architectures often combine them.
+
+## 17. Ingress and egress
+
+### Ingress filtering
+Controls traffic entering a host/network/zone.
+
+### Egress filtering
+Controls traffic leaving it.
+
+Defenders often focus heavily on ingress, but egress policy can also matter.
+
+Example question:
+
+> Does this server need to initiate arbitrary outbound connections?
+
+The answer depends on the server's role.
+
+## 18. Least privilege for networks
+
+Least privilege also applies to communication.
+
+Instead of:
+
+```text
+any source -> any destination -> any port
+```
+
+prefer a policy derived from actual requirements:
+
+```text
+specific source/zone
+        ↓
+specific destination/service
+        ↓
+required protocol/port
+```
+
+Do not make a rule narrower merely for appearance; it should reflect real application requirements.
+
+## 19. Logging and visibility
+
+Firewall logs can help answer:
+
+- what was denied?
+- which source/destination was involved?
+- which port/protocol?
+- when did it happen?
+- was the event repeated?
+
+But a denied packet is not automatically an attack.
+
+Background internet noise, misconfiguration, expired clients and ordinary mistakes can all produce denied traffic.
+
+Correlate firewall evidence with packet captures, service logs and host telemetry.
+
+## 20. Troubleshooting workflow
+
+If a service is unreachable:
+
+```text
+is application running?
+       ↓
+is it listening?
+       ↓
+which address/port?
+       ↓
+is route correct?
+       ↓
+does firewall permit the path?
+       ↓
+does packet reach destination?
+       ↓
+does response return?
+```
+
+Useful tools:
+
+```bash
+ss -ltnp
+ip addr
+ip route
+sudo nft list ruleset
+sudo tcpdump -n -i any 'tcp port 8000'
+curl -v http://127.0.0.1:8000/
+```
+
+This avoids blaming “the firewall” before checking whether the service is even listening.
+
+## 21. Design exercise
+
+Do not apply these as commands. Write the policy in plain language.
+
+Scenario:
+
+- User network: `10.10.10.0/24`
+- Web server zone: `10.10.20.0/24`
+- Management zone: `10.10.30.0/24`
+- Web server needs HTTPS from users.
+- SSH administration should come only from the management zone.
+- Other inbound paths to the web server are unnecessary for this simplified scenario.
+
+Write four statements:
+
+1. what users may reach,
+2. what management may reach,
+3. what should be denied,
+4. what should be logged.
+
+The purpose is policy reasoning, not deploying a production firewall from a lab example.
+
+## 22. Defensive analysis connection
+
+Firewall data becomes much more useful when combined with what you already know:
+
+```text
+DNS query
+   ↓
+TCP connection attempt
+   ↓
+firewall decision
+   ↓
+service response
+   ↓
+host/application log
+```
+
+This is the beginning of correlation rather than isolated packet reading.
+
+## Exercises
+
+1. Start the loopback HTTP server.
+2. Verify its listening address and port with `ss`.
+3. Capture one request on loopback.
+4. Inspect your local firewall rules without modifying them.
+5. Identify input/output/forward concepts in your firewall tool.
+6. Explain DROP vs REJECT.
+7. Explain connection-tracking ESTABLISHED vs TCP ESTABLISHED.
+8. Draw a three-zone segmented network.
+9. Write a least-privilege policy for the design exercise.
+10. Build a troubleshooting checklist for “port 8000 is unreachable.”
+
+## Questions
+
+1. What does a firewall decide?
+2. Stateless vs stateful filtering?
+3. What is connection tracking?
+4. Why does rule order matter?
+5. Host firewall vs network firewall?
+6. What is segmentation trying to achieve?
+7. Why is a VLAN alone not a complete security policy?
+8. What is ingress vs egress filtering?
+9. Why is a denied packet not automatically malicious?
+10. Why should service state be checked before blaming the firewall?
+
+## Main takeaway
+
+```text
+required communication
+        ↓
+state + source + destination + service
+        ↓
+firewall policy
+        ↓
+allow / deny / log
+        ↓
+segmentation + least privilege
+        ↓
+smaller and more understandable network exposure
+```
