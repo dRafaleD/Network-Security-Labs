@@ -16,6 +16,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 4 — ICMP, Traceroute, TTL and Network Troubleshooting](labs/04-icmp-traceroute-and-troubleshooting/notes.md)
 - [Day 5 — TCP Deep Dive: Flags, States, Sequence Numbers and Retransmissions](labs/05-tcp-flags-states-sequence-analysis/notes.md)
 - [Day 6 — DNS Deep Dive: Resolution, Records, Caching and Packet Analysis](labs/06-dns-resolution-records-and-analysis/notes.md)
+- [Day 7 — Firewalls, Stateful Filtering and Network Segmentation](labs/07-firewalls-stateful-filtering-and-segmentation/notes.md)
 - [Day 7 — DHCP, Address Assignment and Packet Analysis](labs/07-dhcp-address-assignment-and-analysis/notes.md)
 
 ## Learning path
@@ -40,6 +41,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 4 — ICMP, Traceroute, TTL ve Ağ Sorun Giderme](labs/04-icmp-traceroute-and-troubleshooting/notes.tr.md)
 - [Gün 5 — TCP Derinlemesine: Flag'ler, State'ler, Sequence Number ve Retransmission](labs/05-tcp-flags-states-sequence-analysis/notes.tr.md)
 - [Gün 6 — DNS Derinlemesine: Resolution, Record'lar, Cache ve Paket Analizi](labs/06-dns-resolution-records-and-analysis/notes.tr.md)
+- [Gün 7 — Firewall, Stateful Filtering ve Network Segmentation](labs/07-firewalls-stateful-filtering-and-segmentation/notes.tr.md)
 - [Gün 7 — DHCP, Adres Atama ve Paket Analizi](labs/07-dhcp-address-assignment-and-analysis/notes.tr.md)
 
 ## Öğrenme yolu
