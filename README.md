@@ -19,6 +19,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 7 — Firewalls, Stateful Filtering and Network Segmentation](labs/07-firewalls-stateful-filtering-and-segmentation/notes.md)
 - [Supplemental — DHCP, Address Assignment and Packet Analysis](labs/07-dhcp-address-assignment-and-analysis/notes.md)
 - [Day 8 — NAT, PAT, Port Forwarding and Connection Tracking](labs/08-nat-pat-port-forwarding-and-conntrack/notes.md)
+- [Day 9 — TLS, Certificates, SNI, ALPN and HTTPS Packet Analysis](labs/09-tls-certificates-sni-alpn-and-https-analysis/notes.md)
 
 ## Learning path
 
@@ -45,6 +46,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 7 — Firewall, Stateful Filtering ve Network Segmentation](labs/07-firewalls-stateful-filtering-and-segmentation/notes.tr.md)
 - [Ek Lab — DHCP, Adres Atama ve Paket Analizi](labs/07-dhcp-address-assignment-and-analysis/notes.tr.md)
 - [Gün 8 — NAT, PAT, Port Forwarding ve Connection Tracking](labs/08-nat-pat-port-forwarding-and-conntrack/notes.tr.md)
+- [Gün 9 — TLS, Certificate, SNI, ALPN ve HTTPS Paket Analizi](labs/09-tls-certificates-sni-alpn-and-https-analysis/notes.tr.md)
 
 ## Öğrenme yolu
 
