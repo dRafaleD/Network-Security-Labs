@@ -21,6 +21,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 8 — NAT, PAT, Port Forwarding and Connection Tracking](labs/08-nat-pat-port-forwarding-and-conntrack/notes.md)
 - [Day 9 — TLS, Certificates, SNI, ALPN and HTTPS Packet Analysis](labs/09-tls-certificates-sni-alpn-and-https-analysis/notes.md)
 - [Day 10 — Network Monitoring, Traffic Baselines, IDS/IPS and Alert Triage](labs/10-network-monitoring-baselines-and-ids/notes.md)
+- [Day 11 — DNS Telemetry, NXDOMAIN Baselines and Anomaly Triage](labs/11-dns-telemetry-baselines-and-anomaly-triage/notes.md)
 
 ## Learning path
 
@@ -49,6 +50,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 8 — NAT, PAT, Port Forwarding ve Connection Tracking](labs/08-nat-pat-port-forwarding-and-conntrack/notes.tr.md)
 - [Gün 9 — TLS, Certificate, SNI, ALPN ve HTTPS Paket Analizi](labs/09-tls-certificates-sni-alpn-and-https-analysis/notes.tr.md)
 - [Gün 10 — Network Monitoring, Traffic Baseline, IDS/IPS ve Alert Triage](labs/10-network-monitoring-baselines-and-ids/notes.tr.md)
+- [Gün 11 — DNS Telemetri, NXDOMAIN Baseline ve Anomaly Triage](labs/11-dns-telemetry-baselines-and-anomaly-triage/notes.tr.md)
 
 ## Öğrenme yolu
 
