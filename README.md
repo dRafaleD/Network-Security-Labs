@@ -22,6 +22,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 9 — TLS, Certificates, SNI, ALPN and HTTPS Packet Analysis](labs/09-tls-certificates-sni-alpn-and-https-analysis/notes.md)
 - [Day 10 — Network Monitoring, Traffic Baselines, IDS/IPS and Alert Triage](labs/10-network-monitoring-baselines-and-ids/notes.md)
 - [Day 11 — DNS Telemetry, NXDOMAIN Baselines and Anomaly Triage](labs/11-dns-telemetry-baselines-and-anomaly-triage/notes.md)
+- [Day 12 — Flow Correlation, TCP/TLS Metadata and PCAP Evidence](labs/12-flow-correlation-and-tls-metadata/notes.md)
 
 ## Learning path
 
@@ -51,6 +52,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 9 — TLS, Certificate, SNI, ALPN ve HTTPS Paket Analizi](labs/09-tls-certificates-sni-alpn-and-https-analysis/notes.tr.md)
 - [Gün 10 — Network Monitoring, Traffic Baseline, IDS/IPS ve Alert Triage](labs/10-network-monitoring-baselines-and-ids/notes.tr.md)
 - [Gün 11 — DNS Telemetri, NXDOMAIN Baseline ve Anomaly Triage](labs/11-dns-telemetry-baselines-and-anomaly-triage/notes.tr.md)
+- [Gün 12 — Akış Korelasyonu, TCP/TLS Metadata ve PCAP Delili](labs/12-flow-correlation-and-tls-metadata/notes.tr.md)
 
 ## Öğrenme yolu
 
