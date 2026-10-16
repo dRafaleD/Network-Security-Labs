@@ -25,6 +25,8 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 12 — Flow Correlation, TCP/TLS Metadata and PCAP Evidence](labs/12-flow-correlation-and-tls-metadata/notes.md)
 - [Day 13 — Firewall Log Correlation, Alert Triage and Rule Tuning](labs/13-firewall-logs-triage-and-rule-tuning/notes.md)
 
+- [Day 14 — ARP Neighbor Monitoring and Layer-2 Triage](labs/14-arp-neighbor-monitoring-and-triage/notes.md)
+
 ## Learning path
 
 Future labs will gradually cover IP addressing, subnetting, ARP, DNS, TCP/UDP, packet analysis, routing, firewalls, segmentation, and defensive network monitoring.
@@ -55,6 +57,8 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 11 — DNS Telemetri, NXDOMAIN Baseline ve Anomaly Triage](labs/11-dns-telemetry-baselines-and-anomaly-triage/notes.tr.md)
 - [Gün 12 — Akış Korelasyonu, TCP/TLS Metadata ve PCAP Delili](labs/12-flow-correlation-and-tls-metadata/notes.tr.md)
 - [Gün 13 — Firewall Log Korelasyonu, Alarm İnceleme ve Kural Ayarı](labs/13-firewall-logs-triage-and-rule-tuning/notes.tr.md)
+
+- [Gün 14 — ARP Komşu İzleme ve Katman-2 Alarm İncelemesi](labs/14-arp-neighbor-monitoring-and-triage/notes.tr.md)
 
 ## Öğrenme yolu
 
