@@ -29,6 +29,8 @@ The goal is to understand how networks work before moving into security analysis
 
 - [Day 15 — DHCP Lease Telemetry, Address Changes and Anomaly Triage](labs/15-15-dhcp-lease-telemetry-and-anomaly-triage/notes.md)
 
+- [Day 16 — NTP, Clock Skew and Network Security Log Correlation](labs/16-ntp-clock-skew-and-security-log-correlation/notes.md)
+
 ## Learning path
 
 Future labs will gradually cover IP addressing, subnetting, ARP, DNS, TCP/UDP, packet analysis, routing, firewalls, segmentation, and defensive network monitoring.
@@ -63,6 +65,8 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 14 — ARP Komşu İzleme ve Katman-2 Alarm İncelemesi](labs/14-arp-neighbor-monitoring-and-triage/notes.tr.md)
 
 - [Gün 15 — DHCP Lease Telemetrisi, Adres Değişiklikleri ve Alarm İncelemesi](labs/15-15-dhcp-lease-telemetry-and-anomaly-triage/notes.tr.md)
+
+- [Gün 16 — NTP, Saat Kayması ve Ağ Güvenliği Log Korelasyonu](labs/16-ntp-clock-skew-and-security-log-correlation/notes.tr.md)
 
 ## Öğrenme yolu
 
