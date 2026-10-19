@@ -31,6 +31,8 @@ The goal is to understand how networks work before moving into security analysis
 
 - [Day 16 — NTP, Clock Skew and Network Security Log Correlation](labs/16-ntp-clock-skew-and-security-log-correlation/notes.md)
 
+- [Day 17 — Network Segmentation Policy Matrices and Verification](labs/17-segmentation-policy-matrix-and-validation/notes.md)
+
 ## Learning path
 
 Future labs will gradually cover IP addressing, subnetting, ARP, DNS, TCP/UDP, packet analysis, routing, firewalls, segmentation, and defensive network monitoring.
@@ -67,6 +69,8 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 15 — DHCP Lease Telemetrisi, Adres Değişiklikleri ve Alarm İncelemesi](labs/15-15-dhcp-lease-telemetry-and-anomaly-triage/notes.tr.md)
 
 - [Gün 16 — NTP, Saat Kayması ve Ağ Güvenliği Log Korelasyonu](labs/16-ntp-clock-skew-and-security-log-correlation/notes.tr.md)
+
+- [Gün 17 — Ağ Segmentasyonu, Politika Matrisi ve Doğrulama](labs/17-segmentation-policy-matrix-and-validation/notes.tr.md)
 
 ## Öğrenme yolu
 
