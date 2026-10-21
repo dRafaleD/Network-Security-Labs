@@ -35,6 +35,8 @@ The goal is to understand how networks work before moving into security analysis
 
 - [Day 18 — Network Flow Baselines, Thresholds and False Positives](labs/18-network-flow-baselines-and-thresholds/notes.md)
 
+- [Day 19 — Syslog Normalization, Duplicate Events and Correlation](labs/19-syslog-normalization-and-event-deduplication/notes.md)
+
 ## Learning path
 
 Future labs will gradually cover IP addressing, subnetting, ARP, DNS, TCP/UDP, packet analysis, routing, firewalls, segmentation, and defensive network monitoring.
@@ -75,6 +77,8 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 17 — Ağ Segmentasyonu, Politika Matrisi ve Doğrulama](labs/17-segmentation-policy-matrix-and-validation/notes.tr.md)
 
 - [Gün 18 — Ağ Akışı Referans Değerleri, Eşikler ve Yanlış Pozitifler](labs/18-network-flow-baselines-and-thresholds/notes.tr.md)
+
+- [Gün 19 — Syslog Normalizasyonu, Tekrarlı Olaylar ve Korelasyon](labs/19-syslog-normalization-and-event-deduplication/notes.tr.md)
 
 ## Öğrenme yolu
 
