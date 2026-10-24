@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 21 — TLS Certificate Metadata and Validation**
-- [English notes](labs/21-tls-certificate-metadata-and-validation/notes.md) · [Türkçe notlar](labs/21-tls-certificate-metadata-and-validation/notes.tr.md) · [Practical exercise](labs/21-tls-certificate-metadata-and-validation/tls_validation_demo.py)
+- **Day 22 — DNS Log Triage: NXDOMAIN Ratio and Query Regularity**
+- [English notes](labs/22-dns-log-nxdomain-and-periodicity-triage/notes.md) · [Türkçe notlar](labs/22-dns-log-nxdomain-and-periodicity-triage/notes.tr.md) · [Practical exercise](labs/22-dns-log-nxdomain-and-periodicity-triage/dns_triage.py)
