@@ -91,3 +91,9 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 ## Güvenlik
 
 Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test etmek için açık izin aldığınız sistem ve ağlarda gerçekleştirin.
+
+
+## Latest lab
+
+- **Day 21 — TLS Certificate Metadata and Validation**
+- [English notes](labs/21-tls-certificate-metadata-and-validation/notes.md) · [Türkçe notlar](labs/21-tls-certificate-metadata-and-validation/notes.tr.md) · [Practical exercise](labs/21-tls-certificate-metadata-and-validation/tls_validation_demo.py)
