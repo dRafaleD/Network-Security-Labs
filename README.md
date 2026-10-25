@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 22 — DNS Log Triage: NXDOMAIN Ratio and Query Regularity**
-- [English notes](labs/22-dns-log-nxdomain-and-periodicity-triage/notes.md) · [Türkçe notlar](labs/22-dns-log-nxdomain-and-periodicity-triage/notes.tr.md) · [Practical exercise](labs/22-dns-log-nxdomain-and-periodicity-triage/dns_triage.py)
+- **Day 23 — Firewall Rule Order and Shadowed Rules**
+- [English notes](labs/23-firewall-rule-order-and-shadowed-rules/notes.md) · [Türkçe notlar](labs/23-firewall-rule-order-and-shadowed-rules/notes.tr.md) · [Practical exercise](labs/23-firewall-rule-order-and-shadowed-rules/firewall_demo.py)
