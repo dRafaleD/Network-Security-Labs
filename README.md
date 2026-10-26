@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 23 — Firewall Rule Order and Shadowed Rules**
-- [English notes](labs/23-firewall-rule-order-and-shadowed-rules/notes.md) · [Türkçe notlar](labs/23-firewall-rule-order-and-shadowed-rules/notes.tr.md) · [Practical exercise](labs/23-firewall-rule-order-and-shadowed-rules/firewall_demo.py)
+- **Day 24 — Port Scan Detection: Fan-Out and Thresholds**
+- [English notes](labs/24-port-scan-detection-fan-out-and-thresholds/notes.md) · [Türkçe notlar](labs/24-port-scan-detection-fan-out-and-thresholds/notes.tr.md) · [Practical exercise](labs/24-port-scan-detection-fan-out-and-thresholds/scan_demo.py)
