@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 24 — Port Scan Detection: Fan-Out and Thresholds**
-- [English notes](labs/24-port-scan-detection-fan-out-and-thresholds/notes.md) · [Türkçe notlar](labs/24-port-scan-detection-fan-out-and-thresholds/notes.tr.md) · [Practical exercise](labs/24-port-scan-detection-fan-out-and-thresholds/scan_demo.py)
+- **Day 25 — ARP Table Conflict Detection**
+- [English notes](labs/25-arp-table-conflict-detection/notes.md) · [Türkçe notlar](labs/25-arp-table-conflict-detection/notes.tr.md) · [Practical exercise](labs/25-arp-table-conflict-detection/arp_demo.py)
