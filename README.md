@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 25 — ARP Table Conflict Detection**
-- [English notes](labs/25-arp-table-conflict-detection/notes.md) · [Türkçe notlar](labs/25-arp-table-conflict-detection/notes.tr.md) · [Practical exercise](labs/25-arp-table-conflict-detection/arp_demo.py)
+- **Day 26 — CIDR Overlap Detection in IP Plans**
+- [English notes](labs/26-cidr-overlap-detection-in-ip-plans/notes.md) · [Türkçe notlar](labs/26-cidr-overlap-detection-in-ip-plans/notes.tr.md) · [Practical exercise](labs/26-cidr-overlap-detection-in-ip-plans/overlap_demo.py)
