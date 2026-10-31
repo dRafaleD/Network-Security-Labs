@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 32 — SNMP Community String and Exposure Audit**
-- [English notes](labs/32-snmp-community-string-and-exposure-audit/notes.md) · [Türkçe notlar](labs/32-snmp-community-string-and-exposure-audit/notes.tr.md) · [Practical exercise](labs/32-snmp-community-string-and-exposure-audit/snmp_audit_demo.py)
+- **Day 33 — TLS Version and Cipher Policy Audit**
+- [English notes](labs/33-tls-version-and-cipher-policy-audit/notes.md) · [Türkçe notlar](labs/33-tls-version-and-cipher-policy-audit/notes.tr.md) · [Practical exercise](labs/33-tls-version-and-cipher-policy-audit/tls_policy_demo.py)
