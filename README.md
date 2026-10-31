@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 27 — DNS Tunneling Heuristics: Label Length and Entropy**
-- [English notes](labs/27-dns-tunneling-heuristics-label-length-and-entropy/notes.md) · [Türkçe notlar](labs/27-dns-tunneling-heuristics-label-length-and-entropy/notes.tr.md) · [Practical exercise](labs/27-dns-tunneling-heuristics-label-length-and-entropy/dns_tunnel_demo.py)
+- **Day 28 — ICMP Ping Sweep Detection**
+- [English notes](labs/28-icmp-ping-sweep-detection/notes.md) · [Türkçe notlar](labs/28-icmp-ping-sweep-detection/notes.tr.md) · [Practical exercise](labs/28-icmp-ping-sweep-detection/sweep_demo.py)
