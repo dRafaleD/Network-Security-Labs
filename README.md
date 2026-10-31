@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 29 — Subnet Membership and VLAN Policy Validation**
-- [English notes](labs/29-subnet-membership-and-vlan-policy-validation/notes.md) · [Türkçe notlar](labs/29-subnet-membership-and-vlan-policy-validation/notes.tr.md) · [Practical exercise](labs/29-subnet-membership-and-vlan-policy-validation/vlan_demo.py)
+- **Day 30 — Beaconing Regularity and Jitter Analysis**
+- [English notes](labs/30-beaconing-regularity-and-jitter-analysis/notes.md) · [Türkçe notlar](labs/30-beaconing-regularity-and-jitter-analysis/notes.tr.md) · [Practical exercise](labs/30-beaconing-regularity-and-jitter-analysis/beacon_demo.py)
