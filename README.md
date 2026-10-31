@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 26 — CIDR Overlap Detection in IP Plans**
-- [English notes](labs/26-cidr-overlap-detection-in-ip-plans/notes.md) · [Türkçe notlar](labs/26-cidr-overlap-detection-in-ip-plans/notes.tr.md) · [Practical exercise](labs/26-cidr-overlap-detection-in-ip-plans/overlap_demo.py)
+- **Day 27 — DNS Tunneling Heuristics: Label Length and Entropy**
+- [English notes](labs/27-dns-tunneling-heuristics-label-length-and-entropy/notes.md) · [Türkçe notlar](labs/27-dns-tunneling-heuristics-label-length-and-entropy/notes.tr.md) · [Practical exercise](labs/27-dns-tunneling-heuristics-label-length-and-entropy/dns_tunnel_demo.py)
