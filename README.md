@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 31 — SYN Flood: Half-Open Connection Ratio**
-- [English notes](labs/31-syn-flood-half-open-connection-ratio/notes.md) · [Türkçe notlar](labs/31-syn-flood-half-open-connection-ratio/notes.tr.md) · [Practical exercise](labs/31-syn-flood-half-open-connection-ratio/synflood_demo.py)
+- **Day 32 — SNMP Community String and Exposure Audit**
+- [English notes](labs/32-snmp-community-string-and-exposure-audit/notes.md) · [Türkçe notlar](labs/32-snmp-community-string-and-exposure-audit/notes.tr.md) · [Practical exercise](labs/32-snmp-community-string-and-exposure-audit/snmp_audit_demo.py)
