@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 30 — Beaconing Regularity and Jitter Analysis**
-- [English notes](labs/30-beaconing-regularity-and-jitter-analysis/notes.md) · [Türkçe notlar](labs/30-beaconing-regularity-and-jitter-analysis/notes.tr.md) · [Practical exercise](labs/30-beaconing-regularity-and-jitter-analysis/beacon_demo.py)
+- **Day 31 — SYN Flood: Half-Open Connection Ratio**
+- [English notes](labs/31-syn-flood-half-open-connection-ratio/notes.md) · [Türkçe notlar](labs/31-syn-flood-half-open-connection-ratio/notes.tr.md) · [Practical exercise](labs/31-syn-flood-half-open-connection-ratio/synflood_demo.py)
