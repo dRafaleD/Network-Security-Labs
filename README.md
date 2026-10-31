@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 28 — ICMP Ping Sweep Detection**
-- [English notes](labs/28-icmp-ping-sweep-detection/notes.md) · [Türkçe notlar](labs/28-icmp-ping-sweep-detection/notes.tr.md) · [Practical exercise](labs/28-icmp-ping-sweep-detection/sweep_demo.py)
+- **Day 29 — Subnet Membership and VLAN Policy Validation**
+- [English notes](labs/29-subnet-membership-and-vlan-policy-validation/notes.md) · [Türkçe notlar](labs/29-subnet-membership-and-vlan-policy-validation/notes.tr.md) · [Practical exercise](labs/29-subnet-membership-and-vlan-policy-validation/vlan_demo.py)
