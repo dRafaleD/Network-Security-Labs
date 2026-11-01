@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 33 — TLS Version and Cipher Policy Audit**
-- [English notes](labs/33-tls-version-and-cipher-policy-audit/notes.md) · [Türkçe notlar](labs/33-tls-version-and-cipher-policy-audit/notes.tr.md) · [Practical exercise](labs/33-tls-version-and-cipher-policy-audit/tls_policy_demo.py)
+- **Day 34 — Proxy Log Triage: Error Ratio and Rare User Agents**
+- [English notes](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.md) · [Türkçe notlar](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.tr.md) · [Practical exercise](labs/34-proxy-log-error-ratio-and-rare-user-agents/proxy_demo.py)
