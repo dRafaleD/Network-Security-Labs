@@ -97,3 +97,7 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 - **Day 35 — MAC Address OUI and Randomization Checks**
 - [English notes](labs/35-mac-address-oui-and-randomization-checks/notes.md) · [Türkçe notlar](labs/35-mac-address-oui-and-randomization-checks/notes.tr.md) · [Practical exercise](labs/35-mac-address-oui-and-randomization-checks/mac_demo.py)
+
+### Day 22 — DNS Cache Trust Boundaries
+
+[English notes](labs/22-dns-cache-poisoning-defense-model/notes.md) · [Türkçe notlar](labs/22-dns-cache-poisoning-defense-model/notes.tr.md) · [Offline Python demo](labs/22-dns-cache-poisoning-defense-model/dns_cache_demo.py)
