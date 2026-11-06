@@ -95,5 +95,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 34 — Proxy Log Triage: Error Ratio and Rare User Agents**
-- [English notes](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.md) · [Türkçe notlar](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.tr.md) · [Practical exercise](labs/34-proxy-log-error-ratio-and-rare-user-agents/proxy_demo.py)
+- **Day 35 — MAC Address OUI and Randomization Checks**
+- [English notes](labs/35-mac-address-oui-and-randomization-checks/notes.md) · [Türkçe notlar](labs/35-mac-address-oui-and-randomization-checks/notes.tr.md) · [Practical exercise](labs/35-mac-address-oui-and-randomization-checks/mac_demo.py)
