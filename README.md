@@ -47,6 +47,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 33 — TLS Version And Cipher Policy Audit](labs/33-tls-version-and-cipher-policy-audit/notes.md)
 - [Day 34 — Proxy Log Error Ratio And Rare User Agents](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.md)
 - [Day 35 — MAC Address OUI And Randomization Checks](labs/35-mac-address-oui-and-randomization-checks/notes.md)
+- [Day 36 — DNS Response TTL and Cache Expiry Correlation](labs/36-dns-response-ttl-and-cache-expiry/notes.md)
 
 ## Learning path
 
@@ -101,6 +102,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 33 — TLS Version And Cipher Policy Audit](labs/33-tls-version-and-cipher-policy-audit/notes.tr.md)
 - [Gün 34 — Proxy Log Error Ratio And Rare User Agents](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.tr.md)
 - [Gün 35 — MAC Address OUI And Randomization Checks](labs/35-mac-address-oui-and-randomization-checks/notes.tr.md)
+- [Gün 36 — DNS Yanıtı TTL ve Önbellek Süresinin Korelasyonu](labs/36-dns-response-ttl-and-cache-expiry/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -113,6 +115,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 35 — MAC Address OUI and Randomization Checks**
-- [English notes](labs/35-mac-address-oui-and-randomization-checks/notes.md) · [Türkçe notlar](labs/35-mac-address-oui-and-randomization-checks/notes.tr.md) · [Practical exercise](labs/35-mac-address-oui-and-randomization-checks/mac_demo.py)
-
+- **Day 36 — DNS Response TTL and Cache Expiry Correlation**
+- [English notes](labs/36-dns-response-ttl-and-cache-expiry/notes.md) · [Türkçe notlar](labs/36-dns-response-ttl-and-cache-expiry/notes.tr.md) · [Practical exercise](labs/36-dns-response-ttl-and-cache-expiry/dns_ttl_demo.py)
