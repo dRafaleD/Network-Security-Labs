@@ -48,6 +48,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 34 — Proxy Log Error Ratio And Rare User Agents](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.md)
 - [Day 35 — MAC Address OUI And Randomization Checks](labs/35-mac-address-oui-and-randomization-checks/notes.md)
 - [Day 36 — DNS Response TTL and Cache Expiry Correlation](labs/36-dns-response-ttl-and-cache-expiry/notes.md)
+- [Day 37 — IPv6 CIDR Scope and Network Allowlists](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.md)
 
 ## Learning path
 
@@ -103,6 +104,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 34 — Proxy Log Error Ratio And Rare User Agents](labs/34-proxy-log-error-ratio-and-rare-user-agents/notes.tr.md)
 - [Gün 35 — MAC Address OUI And Randomization Checks](labs/35-mac-address-oui-and-randomization-checks/notes.tr.md)
 - [Gün 36 — DNS Yanıtı TTL ve Önbellek Süresinin Korelasyonu](labs/36-dns-response-ttl-and-cache-expiry/notes.tr.md)
+- [Gün 37 — IPv6 CIDR Kapsamı ve Ağ İzin Listeleri](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -115,5 +117,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 36 — DNS Response TTL and Cache Expiry Correlation**
-- [English notes](labs/36-dns-response-ttl-and-cache-expiry/notes.md) · [Türkçe notlar](labs/36-dns-response-ttl-and-cache-expiry/notes.tr.md) · [Practical exercise](labs/36-dns-response-ttl-and-cache-expiry/dns_ttl_demo.py)
+- **Day 37 — IPv6 CIDR Scope and Network Allowlists**
+- [English notes](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.md) · [Türkçe notlar](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.tr.md) · [Practical exercise](labs/37-ipv6-cidr-scope-and-network-allowlists/ipv6_policy_demo.py)
