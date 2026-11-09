@@ -49,6 +49,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 35 — MAC Address OUI And Randomization Checks](labs/35-mac-address-oui-and-randomization-checks/notes.md)
 - [Day 36 — DNS Response TTL and Cache Expiry Correlation](labs/36-dns-response-ttl-and-cache-expiry/notes.md)
 - [Day 37 — IPv6 CIDR Scope and Network Allowlists](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.md)
+- [Day 38 — IPv6 Router Advertisement Trust Boundaries](labs/38-ipv6-router-advertisement-policy-triage/notes.md)
 
 ## Learning path
 
@@ -105,6 +106,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 35 — MAC Address OUI And Randomization Checks](labs/35-mac-address-oui-and-randomization-checks/notes.tr.md)
 - [Gün 36 — DNS Yanıtı TTL ve Önbellek Süresinin Korelasyonu](labs/36-dns-response-ttl-and-cache-expiry/notes.tr.md)
 - [Gün 37 — IPv6 CIDR Kapsamı ve Ağ İzin Listeleri](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.tr.md)
+- [Gün 38 — IPv6 Router Advertisement Güven Sınırları](labs/38-ipv6-router-advertisement-policy-triage/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -117,5 +119,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 37 — IPv6 CIDR Scope and Network Allowlists**
-- [English notes](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.md) · [Türkçe notlar](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.tr.md) · [Practical exercise](labs/37-ipv6-cidr-scope-and-network-allowlists/ipv6_policy_demo.py)
+- **Day 38 — IPv6 Router Advertisements and Trust Boundaries**
+- [English notes](labs/38-ipv6-router-advertisement-policy-triage/notes.md) · [Türkçe notlar](labs/38-ipv6-router-advertisement-policy-triage/notes.tr.md) · [Practical exercise](labs/38-ipv6-router-advertisement-policy-triage/ra_guard_demo.py)
