@@ -50,6 +50,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 36 — DNS Response TTL and Cache Expiry Correlation](labs/36-dns-response-ttl-and-cache-expiry/notes.md)
 - [Day 37 — IPv6 CIDR Scope and Network Allowlists](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.md)
 - [Day 38 — IPv6 Router Advertisement Trust Boundaries](labs/38-ipv6-router-advertisement-policy-triage/notes.md)
+- [Day 39 — IPv6 Neighbor Discovery NS/NA Triage](labs/39-ipv6-neighbor-discovery-message-triage/notes.md)
 
 ## Learning path
 
@@ -107,6 +108,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 36 — DNS Yanıtı TTL ve Önbellek Süresinin Korelasyonu](labs/36-dns-response-ttl-and-cache-expiry/notes.tr.md)
 - [Gün 37 — IPv6 CIDR Kapsamı ve Ağ İzin Listeleri](labs/37-ipv6-cidr-scope-and-network-allowlists/notes.tr.md)
 - [Gün 38 — IPv6 Router Advertisement Güven Sınırları](labs/38-ipv6-router-advertisement-policy-triage/notes.tr.md)
+- [Gün 39 — IPv6 NS/NA ve DAD İncelemesi](labs/39-ipv6-neighbor-discovery-message-triage/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -119,5 +121,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 38 — IPv6 Router Advertisements and Trust Boundaries**
-- [English notes](labs/38-ipv6-router-advertisement-policy-triage/notes.md) · [Türkçe notlar](labs/38-ipv6-router-advertisement-policy-triage/notes.tr.md) · [Practical exercise](labs/38-ipv6-router-advertisement-policy-triage/ra_guard_demo.py)
+- **Day 39 — IPv6 Neighbor Discovery: NS, NA and DAD**
+- [English notes](labs/39-ipv6-neighbor-discovery-message-triage/notes.md) · [Türkçe notlar](labs/39-ipv6-neighbor-discovery-message-triage/notes.tr.md) · [Practical exercise](labs/39-ipv6-neighbor-discovery-message-triage/ndp_triage_demo.py)
