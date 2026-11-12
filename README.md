@@ -52,6 +52,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 38 — IPv6 Router Advertisement Trust Boundaries](labs/38-ipv6-router-advertisement-policy-triage/notes.md)
 - [Day 39 — IPv6 Neighbor Discovery NS/NA Triage](labs/39-ipv6-neighbor-discovery-message-triage/notes.md)
 - [Day 40 — IPv6 Neighbor Cache Baselines and Corroboration](labs/40-ipv6-neighbor-cache-baselines-and-corroboration/notes.md)
+- [Day 41 — IPv6 DAD Conflicts and Evidence Correlation](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.md)
 
 ## Learning path
 
@@ -111,6 +112,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 38 — IPv6 Router Advertisement Güven Sınırları](labs/38-ipv6-router-advertisement-policy-triage/notes.tr.md)
 - [Gün 39 — IPv6 NS/NA ve DAD İncelemesi](labs/39-ipv6-neighbor-discovery-message-triage/notes.tr.md)
 - [Gün 40 — IPv6 Komşu Önbelleği ve Kanıt Doğrulama](labs/40-ipv6-neighbor-cache-baselines-and-corroboration/notes.tr.md)
+- [Gün 41 — IPv6 DAD Çakışmaları ve Kanıt Korelasyonu](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -123,5 +125,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 40 — IPv6 Neighbor Cache Baselines and Corroboration**
-- [English notes](labs/40-ipv6-neighbor-cache-baselines-and-corroboration/notes.md) · [Türkçe notlar](labs/40-ipv6-neighbor-cache-baselines-and-corroboration/notes.tr.md) · [Practical exercise](labs/40-ipv6-neighbor-cache-baselines-and-corroboration/neighbor_cache_demo.py)
+- **Day 41 — IPv6 DAD Conflicts and Evidence Correlation**
+- [English notes](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.md) · [Türkçe notlar](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.tr.md) · [Practical exercise](labs/41-ipv6-dad-conflicts-and-evidence-correlation/dad_conflicts_demo.py)
