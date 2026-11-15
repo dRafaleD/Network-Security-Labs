@@ -54,6 +54,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 40 — IPv6 Neighbor Cache Baselines and Corroboration](labs/40-ipv6-neighbor-cache-baselines-and-corroboration/notes.md)
 - [Day 41 — IPv6 DAD Conflicts and Evidence Correlation](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.md)
 - [Day 42 — IPv6 Conflict Timelines and Clock Uncertainty](labs/42-ipv6-conflict-timeline-and-clock-uncertainty/notes.md)
+- [Day 43 — IPv6 Evidence Deduplication and Source Independence](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.md)
 
 ## Learning path
 
@@ -115,6 +116,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 40 — IPv6 Komşu Önbelleği ve Kanıt Doğrulama](labs/40-ipv6-neighbor-cache-baselines-and-corroboration/notes.tr.md)
 - [Gün 41 — IPv6 DAD Çakışmaları ve Kanıt Korelasyonu](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.tr.md)
 - [Gün 42 — IPv6 Zaman Çizelgesi ve Saat Belirsizliği](labs/42-ipv6-conflict-timeline-and-clock-uncertainty/notes.tr.md)
+- [Gün 43 — IPv6 Kanıt Tekilleştirme ve Kaynak Bağımsızlığı](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -127,5 +129,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 42 — IPv6 Conflict Timelines and Clock Uncertainty**
-- [English notes](labs/42-ipv6-conflict-timeline-and-clock-uncertainty/notes.md) · [Türkçe notlar](labs/42-ipv6-conflict-timeline-and-clock-uncertainty/notes.tr.md) · [Practice](labs/42-ipv6-conflict-timeline-and-clock-uncertainty/clock_correlation_demo.py)
+- **Day 43 — IPv6 Evidence Deduplication and Source Independence**
+- [English notes](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.md) · [Türkçe notlar](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.tr.md) · [Python exercise](labs/43-ipv6-evidence-deduplication-and-source-independence/evidence_dedup_demo.py)
