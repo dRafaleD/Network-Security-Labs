@@ -55,6 +55,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 41 — IPv6 DAD Conflicts and Evidence Correlation](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.md)
 - [Day 42 — IPv6 Conflict Timelines and Clock Uncertainty](labs/42-ipv6-conflict-timeline-and-clock-uncertainty/notes.md)
 - [Day 43 — IPv6 Evidence Deduplication and Source Independence](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.md)
+- [Day 44 — IPv6 Event Provenance Through Log Relays](labs/44-ipv6-event-provenance-through-log-relays/notes.md)
 
 ## Learning path
 
@@ -117,6 +118,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 41 — IPv6 DAD Çakışmaları ve Kanıt Korelasyonu](labs/41-ipv6-dad-conflicts-and-evidence-correlation/notes.tr.md)
 - [Gün 42 — IPv6 Zaman Çizelgesi ve Saat Belirsizliği](labs/42-ipv6-conflict-timeline-and-clock-uncertainty/notes.tr.md)
 - [Gün 43 — IPv6 Kanıt Tekilleştirme ve Kaynak Bağımsızlığı](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.tr.md)
+- [Gün 44 — IPv6 Log Aktarıcıları ve Kaynak Kökeni](labs/44-ipv6-event-provenance-through-log-relays/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -129,5 +131,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 43 — IPv6 Evidence Deduplication and Source Independence**
-- [English notes](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.md) · [Türkçe notlar](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.tr.md) · [Python exercise](labs/43-ipv6-evidence-deduplication-and-source-independence/evidence_dedup_demo.py)
+- **Day 44 — IPv6 Event Provenance Through Log Relays**
+- [English notes](labs/44-ipv6-event-provenance-through-log-relays/notes.md) · [Türkçe notlar](labs/44-ipv6-event-provenance-through-log-relays/notes.tr.md) · [Python exercise](labs/44-ipv6-event-provenance-through-log-relays/relay_provenance_demo.py)
