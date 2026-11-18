@@ -57,6 +57,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 43 — IPv6 Evidence Deduplication and Source Independence](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.md)
 - [Day 44 — IPv6 Event Provenance Through Log Relays](labs/44-ipv6-event-provenance-through-log-relays/notes.md)
 - [Day 45 — Authenticated Sensor Provenance and Relay Deduplication](labs/45-authenticated-sensor-provenance-and-relay-deduplication/notes.md)
+- [Day 46 — Sensor Event Replay Windows and Sequence Guards](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.md)
 
 ## Learning path
 
@@ -121,6 +122,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 43 — IPv6 Kanıt Tekilleştirme ve Kaynak Bağımsızlığı](labs/43-ipv6-evidence-deduplication-and-source-independence/notes.tr.md)
 - [Gün 44 — IPv6 Log Aktarıcıları ve Kaynak Kökeni](labs/44-ipv6-event-provenance-through-log-relays/notes.tr.md)
 - [Gün 45 — HMAC Sensör Kökeni ve Log Tekilleştirme](labs/45-authenticated-sensor-provenance-and-relay-deduplication/notes.tr.md)
+- [Gün 46 — Sensör Replay Penceresi ve Sıra Koruması](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -133,5 +135,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 45 — Authenticated Sensor Provenance and Relay Deduplication**
-- [English notes](labs/45-authenticated-sensor-provenance-and-relay-deduplication/notes.md) · [Türkçe notlar](labs/45-authenticated-sensor-provenance-and-relay-deduplication/notes.tr.md) · [Python exercise](labs/45-authenticated-sensor-provenance-and-relay-deduplication/sensor_auth_demo.py)
+- **Day 46 — Sensor Event Replay Windows and Sequence Guards**
+- [English notes](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.md) · [Türkçe notlar](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.tr.md) · [Python exercise](labs/46-sensor-event-replay-windows-and-sequence-guards/replay_guard_demo.py)
