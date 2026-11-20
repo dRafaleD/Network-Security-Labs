@@ -59,6 +59,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 45 — Authenticated Sensor Provenance and Relay Deduplication](labs/45-authenticated-sensor-provenance-and-relay-deduplication/notes.md)
 - [Day 46 — Sensor Event Replay Windows and Sequence Guards](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.md)
 - [Day 47 — Sensor Restarts, Boot Epochs and Sequence Reuse](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.md)
+- [Day 48 — Boot Enrollment Challenges and Replay Resistance](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.md)
 
 ## Learning path
 
@@ -125,6 +126,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 45 — HMAC Sensör Kökeni ve Log Tekilleştirme](labs/45-authenticated-sensor-provenance-and-relay-deduplication/notes.tr.md)
 - [Gün 46 — Sensör Replay Penceresi ve Sıra Koruması](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.tr.md)
 - [Gün 47 — Sensör Boot Dönemleri ve Sıra Numarası Yeniden Kullanımı](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.tr.md)
+- [Gün 48 — Sensör Boot Kayıt Onayı ve Challenge](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -137,5 +139,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 47 — Sensor Restarts, Boot Epochs and Sequence Reuse**
-- [English notes](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.md) · [Türkçe notlar](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.tr.md) · [Python exercise](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/boot_epoch_demo.py)
+- **Day 48 — Boot Enrollment Challenges and Replay Resistance**
+- [English notes](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.md) · [Türkçe notlar](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.tr.md) · [Python exercise](labs/48-boot-enrollment-challenges-and-replay-resistance/enrollment_demo.py)
