@@ -60,6 +60,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 46 — Sensor Event Replay Windows and Sequence Guards](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.md)
 - [Day 47 — Sensor Restarts, Boot Epochs and Sequence Reuse](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.md)
 - [Day 48 — Boot Enrollment Challenges and Replay Resistance](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.md)
+- [Day 49 — Sensor Key Rotation and Retired-Key Replay](labs/49-sensor-key-rotation-and-retired-key-replay/notes.md)
 
 ## Learning path
 
@@ -127,6 +128,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 46 — Sensör Replay Penceresi ve Sıra Koruması](labs/46-sensor-event-replay-windows-and-sequence-guards/notes.tr.md)
 - [Gün 47 — Sensör Boot Dönemleri ve Sıra Numarası Yeniden Kullanımı](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.tr.md)
 - [Gün 48 — Sensör Boot Kayıt Onayı ve Challenge](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.tr.md)
+- [Gün 49 — Sensör Anahtarı Yenileme ve Eski Anahtarlı Replay](labs/49-sensor-key-rotation-and-retired-key-replay/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -139,5 +141,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 48 — Boot Enrollment Challenges and Replay Resistance**
-- [English notes](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.md) · [Türkçe notlar](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.tr.md) · [Python exercise](labs/48-boot-enrollment-challenges-and-replay-resistance/enrollment_demo.py)
+- **Day 49 — Sensor Key Rotation and Retired-Key Replay**
+- [English notes](labs/49-sensor-key-rotation-and-retired-key-replay/notes.md) · [Türkçe notlar](labs/49-sensor-key-rotation-and-retired-key-replay/notes.tr.md) · [Python exercise](labs/49-sensor-key-rotation-and-retired-key-replay/rotation_replay_demo.py)
