@@ -61,6 +61,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 47 — Sensor Restarts, Boot Epochs and Sequence Reuse](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.md)
 - [Day 48 — Boot Enrollment Challenges and Replay Resistance](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.md)
 - [Day 49 — Sensor Key Rotation and Retired-Key Replay](labs/49-sensor-key-rotation-and-retired-key-replay/notes.md)
+- [Day 50 — Sensor Provenance after Key Rotation and Relay Fanout](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.md)
 
 ## Learning path
 
@@ -129,6 +130,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 47 — Sensör Boot Dönemleri ve Sıra Numarası Yeniden Kullanımı](labs/47-sensor-restarts-boot-epochs-and-sequence-reuse/notes.tr.md)
 - [Gün 48 — Sensör Boot Kayıt Onayı ve Challenge](labs/48-boot-enrollment-challenges-and-replay-resistance/notes.tr.md)
 - [Gün 49 — Sensör Anahtarı Yenileme ve Eski Anahtarlı Replay](labs/49-sensor-key-rotation-and-retired-key-replay/notes.tr.md)
+- [Gün 50 — Anahtar Yenileme Sonrası Sensör Kanıtı Bağımsızlığı](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -141,5 +143,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 49 — Sensor Key Rotation and Retired-Key Replay**
-- [English notes](labs/49-sensor-key-rotation-and-retired-key-replay/notes.md) · [Türkçe notlar](labs/49-sensor-key-rotation-and-retired-key-replay/notes.tr.md) · [Python exercise](labs/49-sensor-key-rotation-and-retired-key-replay/rotation_replay_demo.py)
+- **Day 50 — Sensor Provenance after Key Rotation and Relay Fanout**
+- [English notes](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.md) · [Türkçe notlar](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.tr.md) · [Python exercise](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/sensor_provenance_demo.py)
