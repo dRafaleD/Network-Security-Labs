@@ -63,6 +63,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 49 — Sensor Key Rotation and Retired-Key Replay](labs/49-sensor-key-rotation-and-retired-key-replay/notes.md)
 - [Day 50 — Sensor Provenance after Key Rotation and Relay Fanout](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.md)
 - [Day 51 — Multi-Sensor Time Correlation and Origin Conflicts](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.md)
+- [Day 52 — Sensor Clock Uncertainty and Correlation Intervals](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.md)
 
 ## Learning path
 
@@ -133,6 +134,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 49 — Sensör Anahtarı Yenileme ve Eski Anahtarlı Replay](labs/49-sensor-key-rotation-and-retired-key-replay/notes.tr.md)
 - [Gün 50 — Anahtar Yenileme Sonrası Sensör Kanıtı Bağımsızlığı](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.tr.md)
 - [Gün 51 — Sensör Zaman Korelasyonu ve Kaynak Çelişkileri](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.tr.md)
+- [Gün 52 — Sensör Saat Belirsizliği ve Korelasyon Aralıkları](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -145,5 +147,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 51 — Multi-Sensor Time Correlation and Origin Conflicts**
-- [English notes](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.md) · [Türkçe notlar](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.tr.md) · [Python exercise](labs/51-multi-sensor-time-correlation-and-origin-conflicts/time_correlation_demo.py)
+- **Day 52 — Sensor Clock Uncertainty and Correlation Intervals**
+- [English notes](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.md) · [Türkçe notlar](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.tr.md) · [Python exercise](labs/52-sensor-clock-uncertainty-and-correlation-intervals/clock_intervals.py)
