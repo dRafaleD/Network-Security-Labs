@@ -64,6 +64,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 50 — Sensor Provenance after Key Rotation and Relay Fanout](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.md)
 - [Day 51 — Multi-Sensor Time Correlation and Origin Conflicts](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.md)
 - [Day 52 — Sensor Clock Uncertainty and Correlation Intervals](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.md)
+- [Day 53 — Practice Day: Offline Flow Log Triage](labs/53-offline-flow-log-triage-practice/notes.md)
 
 ## Learning path
 
@@ -135,6 +136,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 50 — Anahtar Yenileme Sonrası Sensör Kanıtı Bağımsızlığı](labs/50-sensor-provenance-after-key-rotation-and-relay-fanout/notes.tr.md)
 - [Gün 51 — Sensör Zaman Korelasyonu ve Kaynak Çelişkileri](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.tr.md)
 - [Gün 52 — Sensör Saat Belirsizliği ve Korelasyon Aralıkları](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.tr.md)
+- [Gün 53 — Uygulama Günü: Çevrimdışı Akış Logu İncelemesi](labs/53-offline-flow-log-triage-practice/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -147,5 +149,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 52 — Sensor Clock Uncertainty and Correlation Intervals**
-- [English notes](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.md) · [Türkçe notlar](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.tr.md) · [Python exercise](labs/52-sensor-clock-uncertainty-and-correlation-intervals/clock_intervals.py)
+- **Day 53 — Practice Day: Offline Flow Log Triage**
+- [English notes](labs/53-offline-flow-log-triage-practice/notes.md) · [Türkçe notlar](labs/53-offline-flow-log-triage-practice/notes.tr.md) · [Python exercise](labs/53-offline-flow-log-triage-practice/flow_triage.py)
