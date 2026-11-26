@@ -66,6 +66,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 52 — Sensor Clock Uncertainty and Correlation Intervals](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.md)
 - [Day 53 — Practice Day: Offline Flow Log Triage](labs/53-offline-flow-log-triage-practice/notes.md)
 - [Day 54 — Flow Counter Deltas and Reset Ambiguity](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.md)
+- [Day 55 — Flow Rate Normalization and Missing Intervals](labs/55-flow-rate-normalization-and-missing-intervals/notes.md)
 
 ## Learning path
 
@@ -139,6 +140,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 52 — Sensör Saat Belirsizliği ve Korelasyon Aralıkları](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.tr.md)
 - [Gün 53 — Uygulama Günü: Çevrimdışı Akış Logu İncelemesi](labs/53-offline-flow-log-triage-practice/notes.tr.md)
 - [Gün 54 — Akış Sayaç Farkları ve Sıfırlanma Belirsizliği](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.tr.md)
+- [Gün 55 — Akış Hızı Normalizasyonu ve Eksik Aralıklar](labs/55-flow-rate-normalization-and-missing-intervals/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -151,5 +153,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 54 — Flow Counter Deltas and Reset Ambiguity**
-- [English notes](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.md) · [Türkçe notlar](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.tr.md) · [Python exercise](labs/54-flow-counter-deltas-and-reset-ambiguity/counter_deltas.py)
+- **Day 55 — Flow Rate Normalization and Missing Intervals**
+- [English notes](labs/55-flow-rate-normalization-and-missing-intervals/notes.md) · [Türkçe notlar](labs/55-flow-rate-normalization-and-missing-intervals/notes.tr.md) · [Python exercise](labs/55-flow-rate-normalization-and-missing-intervals/rate_review.py)
