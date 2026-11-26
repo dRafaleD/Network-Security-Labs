@@ -65,6 +65,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 51 — Multi-Sensor Time Correlation and Origin Conflicts](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.md)
 - [Day 52 — Sensor Clock Uncertainty and Correlation Intervals](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.md)
 - [Day 53 — Practice Day: Offline Flow Log Triage](labs/53-offline-flow-log-triage-practice/notes.md)
+- [Day 54 — Flow Counter Deltas and Reset Ambiguity](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.md)
 
 ## Learning path
 
@@ -137,6 +138,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 51 — Sensör Zaman Korelasyonu ve Kaynak Çelişkileri](labs/51-multi-sensor-time-correlation-and-origin-conflicts/notes.tr.md)
 - [Gün 52 — Sensör Saat Belirsizliği ve Korelasyon Aralıkları](labs/52-sensor-clock-uncertainty-and-correlation-intervals/notes.tr.md)
 - [Gün 53 — Uygulama Günü: Çevrimdışı Akış Logu İncelemesi](labs/53-offline-flow-log-triage-practice/notes.tr.md)
+- [Gün 54 — Akış Sayaç Farkları ve Sıfırlanma Belirsizliği](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -149,5 +151,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 53 — Practice Day: Offline Flow Log Triage**
-- [English notes](labs/53-offline-flow-log-triage-practice/notes.md) · [Türkçe notlar](labs/53-offline-flow-log-triage-practice/notes.tr.md) · [Python exercise](labs/53-offline-flow-log-triage-practice/flow_triage.py)
+- **Day 54 — Flow Counter Deltas and Reset Ambiguity**
+- [English notes](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.md) · [Türkçe notlar](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.tr.md) · [Python exercise](labs/54-flow-counter-deltas-and-reset-ambiguity/counter_deltas.py)
