@@ -68,6 +68,7 @@ The goal is to understand how networks work before moving into security analysis
 - [Day 54 — Flow Counter Deltas and Reset Ambiguity](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.md)
 - [Day 55 — Flow Rate Normalization and Missing Intervals](labs/55-flow-rate-normalization-and-missing-intervals/notes.md)
 - [Day 56 — Weighted Flow Rates and Coverage Reporting](labs/56-weighted-flow-rates-and-coverage-reporting/notes.md)
+- [Day 57 — Flow Window Coverage and Overlap](labs/57-flow-window-coverage-and-overlap/notes.md)
 
 ## Learning path
 
@@ -143,6 +144,7 @@ Amaç güvenlik analizine geçmeden önce ağların nasıl çalıştığını an
 - [Gün 54 — Akış Sayaç Farkları ve Sıfırlanma Belirsizliği](labs/54-flow-counter-deltas-and-reset-ambiguity/notes.tr.md)
 - [Gün 55 — Akış Hızı Normalizasyonu ve Eksik Aralıklar](labs/55-flow-rate-normalization-and-missing-intervals/notes.tr.md)
 - [Gün 56 — Ağırlıklı Akış Hızları ve Kapsama Raporu](labs/56-weighted-flow-rates-and-coverage-reporting/notes.tr.md)
+- [Gün 57 — Akış Penceresi Kapsaması ve Örtüşme](labs/57-flow-window-coverage-and-overlap/notes.tr.md)
 
 ## Öğrenme yolu
 
@@ -155,5 +157,5 @@ Aktif ağ güvenliği çalışmalarını yalnızca sahibi olduğunuz veya test e
 
 ## Latest lab
 
-- **Day 56 — Weighted Flow Rates and Coverage Reporting**
-- [English notes](labs/56-weighted-flow-rates-and-coverage-reporting/notes.md) · [Türkçe notlar](labs/56-weighted-flow-rates-and-coverage-reporting/notes.tr.md) · [Python exercise](labs/56-weighted-flow-rates-and-coverage-reporting/weighted_rates.py)
+- **Day 57 — Flow Window Coverage and Overlap**
+- [English notes](labs/57-flow-window-coverage-and-overlap/notes.md) · [Türkçe notlar](labs/57-flow-window-coverage-and-overlap/notes.tr.md) · [Python exercise](labs/57-flow-window-coverage-and-overlap/window_coverage.py)
